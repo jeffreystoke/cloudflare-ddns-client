@@ -1,4 +1,4 @@
 install:
-	sudo pip install -r requirements.txt
-	sudo cp cloudflare-ddns /usr/local/bin/cloudflare-ddns
-	sudo chmod +x /usr/local/bin/cloudflare-ddns
+	pip3 install -r requirements.txt
+	cp cloudflare-ddns /usr/local/bin/cloudflare-ddns
+	chmod +x /usr/local/bin/cloudflare-ddns

@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import argparse
 import json
 import os
@@ -73,7 +73,7 @@ def initialize_configuration():
     print('')
     email = input('Enter the email address associated with your CloudFlare account.\nExample: developer@kevinlin.info\nEmail: ')
     print('')
-    api_key = input('Enter the API key associated with your CloudFlare account. You can find your API key at https://www.cloudflare.com/a/account/my-account\nExample: 7d9dfl2fid74lsg50saa9j2dbqm67zn39v673\nCloudFlare API key: ')
+    api_key = input('Enter the API key associated with your CloudFlare account. You can find your API key at https://dash.cloudflare.com/profile\nExample: 7d9dfl2fid74lsg50saa9j2dbqm67zn39v673\nCloudFlare API key: ')
     print('')
     domains = input('Enter the domains for which you would like to automatically update the DNS records, delimited by a single comma.\nExample: kevinlin.info,cloudflaremanager.com\nComma-delimited domains: ')
     print('')
